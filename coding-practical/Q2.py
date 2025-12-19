@@ -9,3 +9,6 @@ with open(log_file) as f:
         status = int(line.split()[-2])
         if status >= 500:
             print(line)
+
+
+            
