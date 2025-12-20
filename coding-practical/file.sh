@@ -1,1 +1,1 @@
-for i in {1..9}; do touch Q$i.py; done
+for i in {1..30}; do touch Q$i.py; done
