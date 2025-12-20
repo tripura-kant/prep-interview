@@ -8,8 +8,14 @@ count_agents = {}
 
 with open("access.log") as f:
     for line in f:
-        parts = line.split()
-        user_agent = parts[11]
-        if len(user_agent) < 12:
+        parts = line.split('"')
+        if len(parts) < 6:
             continue
-        print(user_agent)
+        user_agent = parts[-2]
+        if user_agent in count_agents:
+            count_agents[user_agent] += 1
+        else:
+            count_agents[user_agent] = 1
+
+for agent,count in count_agents.items():
+    print(agent,":", count)

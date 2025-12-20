@@ -32,9 +32,9 @@
 192.168.1.10 - - [24/May/2025:10:21:05 +0000] "GET /index.html HTTP/1.1" 500 1024
 192.168.1.10 - - [24/May/2025:10:21:05 +0000] "GET /index.html HTTP/1.1" 501 1024
 203.0.113.42 - - [24/May/2025:10:22:15 +0000] "GET /api/user/profile HTTP/1.1" 200 350
-203.0.113.42 - - [24/May/2025:10:22:15 +0000] "GET /api/user/profile HTTP/1.1" 200 350 "-" "Mozilla/5.0"
-203.0.113.42 - - [24/May/2025:10:22:15 +0000] "GET /api/user/profile HTTP/1.1" 200 350 "-" "Mozilla/5.0"
-203.0.113.17 - - [24/May/2025:10:22:16 +0000] "POST /api/user/login HTTP/1.1" 401 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+203.0.113.42 - - [24/May/2025:10:22:15 +0000] "GET /api/user/profile HTTP/1.1" 200 350 "-" "Mozilla/4.0"
+203.0.113.42 - - [24/May/2025:10:22:15 +0000] "GET /api/user/profile HTTP/1.1" 200 350 "-" "Mozilla/4.0"
+203.0.113.17 - - [24/May/2025:10:22:16 +0000] "POST /api/user/login HTTP/1.1" 401 512 "-" "Mozilla/4.0 (Windows NT 10.0; Win64; x64)"
 198.51.100.23 - - [24/May/2025:10:22:18 +0000] "GET /home HTTP/1.1" 200 2048 "-" "Chrome/124.0.0.0 Safari/537.36"
 192.0.2.11 - - [24/May/2025:10:22:20 +0000] "GET /api/orders HTTP/1.1" 500 1024 "-" "curl/7.81.0"
 203.0.113.42 - - [24/May/2025:10:22:21 +0000] "GET /api/user/profile HTTP/1.1" 200 355 "-" "Mozilla/5.0"
