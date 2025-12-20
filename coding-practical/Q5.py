@@ -13,9 +13,10 @@ with open("access.log") as f:
         # print(time)
         time_stamp=time[1:18]
         # print(time_stamp)
-        if min_count in minute_count:
-            minute_count[min_count] += 1
+        if time_stamp in minute_count:
+            minute_count[time_stamp] += 1
         else:
-            minute_count[min_count] = 1
+            minute_count[time_stamp] = 1
 
-        print(minute_count)
+for time_st, req in minute_count.items():
+    print(time_st, req)
