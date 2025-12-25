@@ -7,7 +7,7 @@ log_file = "/Users/tripurakant/Documents/code/My_git/prep-int/coding-practical/a
 
 with open(log_file) as f:
     for line in f:
-        # print(line)
+        #print(line)
         parts = line.split()
         ip = parts[0]
         err_code = parts[8]
