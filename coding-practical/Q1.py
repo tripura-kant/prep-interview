@@ -5,10 +5,10 @@ Log Type: Nginx / Apache access log
  Task: Extract the top 10 IP addresses by number of requests.
 '''
 
-
+log_file="/Users/tripurakant/Documents/code/My_git/prep-int/coding-practical/access.log"
 ip_count = {}
 
-with open("access.log") as file:
+with open(log_file) as file:
     for line in file:
         ip = line.split()[0]
         ip_count[ip] = ip_count.get(ip, 0) + 1

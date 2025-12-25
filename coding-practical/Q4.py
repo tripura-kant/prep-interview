@@ -5,8 +5,7 @@ Log Line:
  Task: Extract the path (like /api/user/profile) and count the most accessed one.
 '''
 
-
-log_file = "access.log"
+log_file="/Users/tripurakant/Documents/code/My_git/prep-int/coding-practical/access.log"
 url_path_list = {}
 
 with open(log_file) as f:
